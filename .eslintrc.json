@@ -11,7 +11,7 @@
 		"svelte/no-ignored-unsubscribe": "error",
 		"svelte/no-dom-manipulating": "error",
 		"svelte/valid-compile": "error",
-		"svelte/no-reactive-reassign": "warn",
+		"svelte/no-reactive-reassign": "error",
 		"reportUnusedInlineConfigs": "error",
 		"no-unused-vars": "error",
 		"no-unused-expressions": "error",
