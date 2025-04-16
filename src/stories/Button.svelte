@@ -19,9 +19,9 @@
 
 <button
 	type="button"
-	class={['storybook-button', `storybook-button--${size}`].join(' ')}
-	class:storybook-button--primary={primary}
-	class:storybook-button--secondary={!primary}
+	class={['button', `button--${size}`].join(' ')}
+	class:button--primary={primary}
+	class:button--secondary={!primary}
 	style:background-color={backgroundColor}
 	onclick={onClick}
 >
