@@ -20,16 +20,16 @@ export default ts.config(
 	...svelte.configs.prettier,
 	{
 		languageOptions: {
-			globals: { ...globals.browser, ...globals.node }
+			globals: { ...globals.browser, ...globals.node },
 		},
 		rules: {
 			'no-undef': 'off',
 			...prettierConfig.rules,
-			'prettier/prettier': 'error'
+			'prettier/prettier': 'error',
 		},
 		plagins: {
-			prettier: pluginPrettier
-		}
+			prettier: pluginPrettier,
+		},
 	},
 	{
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
@@ -38,8 +38,8 @@ export default ts.config(
 				projectService: true,
 				extraFileExtensions: ['.svelte'],
 				parser: ts.parser,
-				svelteConfig
-			}
-		}
-	}
+				svelteConfig,
+			},
+		},
+	},
 );
