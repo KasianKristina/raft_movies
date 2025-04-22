@@ -13,7 +13,7 @@
 
 	/* Line heights */
 	--leading-ultra-dense: 16px;
-	--leading-dense: 24px;
+	--leading-dense: 1.2;
 	--leading-moderate: 32px;
 	--leading-spacious: 40px;
 	--heading-line-loose: 56px;
@@ -32,6 +32,10 @@
 	--letter-spacing-xl: -2%;
 
 	/* Композитные стили */
+
+	--type-body-regular: var(--weight-regular) var(--size-body) / var(--leading-dense)
+		var(--font-primary);
+
 	--type-link-extra-small: var(--font-semi-bold) var(--text-xxs) / var(--leading-ultra-dense)
 		var(--font-primary);
 
