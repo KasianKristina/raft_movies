@@ -8,9 +8,10 @@
 		label: string;
 		/** The onclick event handler */
 		onClick?: () => void;
+		disabled?: boolean;
 	}
 
-	const { backgroundColor, label, onClick }: Props = $props();
+	const { backgroundColor, label, onClick, disabled = false }: Props = $props();
 </script>
 
 <button
@@ -19,6 +20,7 @@
 	class:button--primary={false}
 	style:background-color={backgroundColor}
 	onclick={onClick}
+	disabled={disabled}
 >
 	{label}
 </button>

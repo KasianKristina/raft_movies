@@ -14,4 +14,9 @@
 		background-color: var(--primary-400);
 		border-color: var(--primary-500);
 	}
+
+	&:disabled {
+		opacity: 0.4;
+		pointer-events: none;
+	}
 }
