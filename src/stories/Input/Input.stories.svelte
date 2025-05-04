@@ -13,6 +13,10 @@
 	});
 </script>
 
-<Story name="Primary" args={{ label: 'Button' }} />
+<Story name="Primary" args={{ label: 'Label' }} />
 
-<Story name="Disabled" args={{ label: 'Disabled button', disabled: true }} />
+<Story name="Disabled" args={{ label: 'Disabled label', disabled: true }} />
+
+<Story name="Placeholder" args={{ placeholder: 'Placeholder' }} />
+
+<Story name="Error" args={{ label: 'Error', errorMessage: 'Error message' }} />

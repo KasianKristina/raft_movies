@@ -39,6 +39,7 @@
 			on:blur={handleBlur}
 			class="input"
             class:input-with-label={Boolean(label)}
+            class:input-error={Boolean(errorMessage)}
 			placeholder={!label ? placeholder : null}
 			{...$$restProps}
 		/>

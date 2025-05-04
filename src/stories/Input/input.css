@@ -13,8 +13,8 @@
 	padding: 16px 12px;
 	border: 1px solid var(--grey-600);
     color: var(--white-400);
+    font: var(--type-body-regular);
 	border-radius: 12px;
-	font-size: 1rem;
 	transition: border-color 0.3s ease;
 
 	&:focus {
@@ -51,11 +51,11 @@
 }
 
 .error-message {
-	color: var(--error-color, #ff4d4f);
-	font-size: 0.875rem;
-	margin-top: 0.25rem;
+	color: var(--error-500);
+	margin-top: 12px;
+    font: var(--type-caption);
 }
 
-.error {
-	border-color: var(--error-color, #ff4d4f) !important;
+.error, .input-error {
+	border-color: var(--error-500) !important;
 }
